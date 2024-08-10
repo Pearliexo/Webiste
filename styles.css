@@ -1,0 +1,363 @@
+/*styling for nav bar start here*/
+
+.nav {
+    background-color: antiquewhite;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1%;
+    margin: 1%;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: #3fadbe;
+
+}
+/*styling for nav bar ends here*/ 
+
+.home-page {
+    background-color: antiquewhite;
+    margin: 1%;
+    padding: 1%;
+
+}
+
+.home-img {
+    justify-content: space-between;
+}
+
+
+
+.h1-1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3fadbe;
+    text-align: center;
+
+}
+
+.p-1 {
+    color: #41474d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+
+.sec {
+    margin: 1%;
+    padding: 1%;
+    background-color: antiquewhite;
+
+}
+
+
+
+
+
+.h2-2 {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3fadbe;
+    text-align: center
+}
+
+.p-2 {
+    color: #41474d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.third {
+    margin: 1%;
+    padding: 1%;
+    background-color: antiquewhite;
+}
+
+.h3-3 {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3fadbe;
+    text-align: center
+}
+
+.p-3 {
+    color: #41474d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fourth {
+    margin: 1%;
+    padding: 1%;
+    background-color: antiquewhite;
+}
+
+
+.h4-4 {
+
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3fadbe;
+    text-align: center
+
+}
+
+.p-4 {
+    color: #41474d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.menu {
+    justify-content: space-between;
+    font-size: larger;
+    color: #3fadbe;
+    margin: 5%;
+}
+
+.find-us {
+    color: #3fadbe;
+    font-size: larger;
+    justify-content: space-between;
+    margin: 5%;
+
+
+}
+
+.social-media {
+    color: #3fadbe;
+    font-size: larger;
+    margin: 5%;
+    justify-content: space-between;
+}
+
+.home-img {
+    float: right;
+
+
+
+}
+.block-styling {
+    background-color: burlywood;
+    display: inline-block;
+    justify-content: space-between ;
+    color:burlywood;
+    margin: 30px;
+    height: 400px;
+    width: 350px;
+    border: 1px solid burlywood;
+}
+
+.mission {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: burlywood;
+    text-align: center;
+}
+
+.mission-p2 {
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #41474d;
+}
+
+.mission-p1 {
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #41474d;
+}
+
+.values {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000;
+    text-align: center;
+
+}
+
+.values-p1 {
+    color: #41474d;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.empowerment {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: burlywood;
+    text-align: center;
+
+}
+
+.empowerment-p1 {
+
+    font-size: large;
+    color: #41474d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column-11 {
+      width: 100%;
+    }
+  }
+
+
+
+/*styling for services */
+.column-services {
+
+    float: left;
+    width: 33.33%;
+    padding: 100px;
+    
+}
+
+/* Clear floats after image containers */
+.row-services::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+  /* this is styling for contact page */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #ff1414;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #f00909;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column-img {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  .column-contactinfo{
+
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    padding: 20px;
+
+  }
+
+  /* Clear floats after the columns */
+  .row-contact:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column-contactinfo, .column-img, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+/*styling for Blog page */
+
+.footer{
+width: 100%;
+position: absolute;
+
+background: burlywood;
+color:#f6f6f6;
+padding: 100px 0 30px;
+border-top-left-radius: 125p;
+font-size: 13px;
+line-height: 20px;
+
+}
+
+.row-footer{
+width: 85%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+.logo-footer{
+height: 80px;
+width: 80px;
+margin-bottom: 30px;
+}
+
+
+
+.col-footer{
+flex-basis: 25%;
+padding: 10px;
+
+}
+
+.col-footer h3{
+width: fit-content;
+margin-bottom: 40px;
+position: relative;
+}
+
+.email-id {
+width: fit-content;
+border-bottom: 1px solid #ccc;
+margin: 20px 0;
+}
+
+.ul-footer {
+list-style: none;
+margin-bottom: 12px;
+} 
+
+.li-footer{
+
+    list-style: none;
+    margin-bottom: 12px;
+
+}
+
+.ul-footerli-footer a {
+text-decoration: none;
+color: white;
+}
+
